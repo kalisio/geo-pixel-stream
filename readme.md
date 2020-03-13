@@ -1,8 +1,9 @@
 # geo-pixel-stream
 
-[![Build Status](https://travis-ci.org/mapbox/geo-pixel-stream.svg?branch=master)](https://travis-ci.org/mapbox/geo-pixel-stream)
+Node.js streams for reading/writing/transforming pixels using node-gdal.
 
-[wip] Node.js streams for reading/writing/transforming pixels using node-gdal
+We forked https://github.com/mapbox/geo-pixel-stream because the project did not seem to be updated anymore.
+We also needed support for latest Node.js LTS (v12 at that time), but https://github.com/naturalatlas/node-gdal was not upgraded as well, so that we switched to https://github.com/contra/node-gdal-next.
 
 ## PixelReader streams
 
