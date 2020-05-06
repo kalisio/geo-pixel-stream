@@ -2,3 +2,10 @@ language: node_js
 node_js:
 - '10'
 - '12'
+notifications:
+  email: false
+  slack:
+    rooms:
+      secure: yo0N+HR9bq0KyTdI2UyDnuRbNO53r9ZyvL7g73GFZvJTsHUHEfl88wM4tgX8f33/A/VAHUb2f0exoBu0MT92z0hb4eYR6Yz4zx94l5DaVvFvZST/GDgFJdlPRM/8BMVlNvytgUDuaImemWKcr9qCBicOjnEGTf5u9QyEEgrA0rF7q1Wtne5lQgVO3MlSWFqJgxgeuWwe6ECcWSX1qEHgwkv672/fW5yGdRf8tu5JxoKinwxHx514yYbKsxQ6+41+oDkZiCpc+10vqf3E6oZQminkcZOavNwOekweXg3vrjb6JM34WhCBeNm2MUPX9PPd6MA7SoNcp4hCseXS+fIofxFa2UNk5YDS5mirmAZOUm4kw8djbjJQzP7Q8jI9EmQJdYF1mtfmkEppggnsV+n6/LjkAovKwNG/9Cz3nFfEd7Lv7s5x4USiPHZi22YBo9rRwLBk0cyhD+W9rGRrhoUmwF5dra+cgcV9NRvkRpoCMmHrazTaCHDxYZ85AfLLqlh5mzpvcbgkjEGBfTiKgg/D8SWBf/d0zSgCEdPMmYG3avvNtmb3i+/Ww27sciUuQ10jHZweV7J4lyV8N0syNrWWg6JP20A1MHMZWwGaFe3FEm25huy612DZubNFZsGaOJ73KeQsOskF0GTWqvGeAQybzp1zUw95xjlQQQ5nQsSNpOk=
+    on_success: always
+    on_failure: always

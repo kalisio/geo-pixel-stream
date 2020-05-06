@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mapbox/geo-pixel-stream",
   "dependencies": {
-    "gdal-next": "~1.0.0"
+    "gdal-next": "1.0.2"
   },
   "devDependencies": {
   }
