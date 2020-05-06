@@ -116,10 +116,10 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-gdal-next@~1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gdal-next/-/gdal-next-1.0.3.tgz#97e24d01648126080b3f0b8302f2ddad918cb14e"
-  integrity sha512-L6QenrQcSR2ae/vheNZ7ZqI72ZidgsKYdDwol/J6rhVRGcvwLmbbasHGFfT3Df8jbEhhkdm2yi4Ui4t3RCmncg==
+gdal-next@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gdal-next/-/gdal-next-1.0.2.tgz#592adf6a2c386a68d1baa4ada44699536a4bd10d"
+  integrity sha512-BdtyCuFi32R2mz13AGwxFSZv12b14RSYY57gw0nU1LS2e6217u4Au8nV2ZP0KkA96Q2ZOo4RoKCUf7LuDz/Pnw==
   dependencies:
     nan "^2.14.0"
     node-pre-gyp "^0.14.0"
