@@ -1,9 +1,4 @@
 language: node_js
 node_js:
-- "4"
-- "6"
-sudo: false
-addons:
-  apt:
-    sources: [ 'ubuntu-toolchain-r-test' ]
-    packages: [ 'libstdc++-5-dev' ]
+- '10'
+- '12'
