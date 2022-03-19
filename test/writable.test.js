@@ -1,7 +1,7 @@
 var fs = require('fs'),
     test = require('tape'),
     path = require('path'),
-    gdal = require('gdal'),
+    gdal = require('gdal-next'),
     stream = require('stream'),
     fixtures = require('./data'),
     writable = require('../lib/writable'),

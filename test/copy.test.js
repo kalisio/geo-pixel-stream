@@ -5,7 +5,7 @@ var test = require('tape'),
     path = require('path'),
     crypto = require('crypto'),
     queue = require('queue-async'),
-    gdal = require('gdal'),
+    gdal = require('gdal-next'),
     mapnik = require('mapnik'),
     fs = require('fs');
 
