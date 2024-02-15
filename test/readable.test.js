@@ -1,6 +1,6 @@
 var test = require('tape');
 var path = require('path');
-var gdal = require('gdal-next');
+var gdal = require('gdal-async');
 var stream = require('stream');
 var fixtures = require('./data');
 var readable = require('../lib/readable');

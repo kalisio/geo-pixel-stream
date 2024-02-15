@@ -17,7 +17,7 @@
     "test": "tape test/*.test.js"
   },
   "dependencies": {
-    "gdal-next": "^2.8.0"
+    "gdal-async": "^3.8.3"
   },
   "devDependencies": {
     "mapnik": "^4.5.9",
