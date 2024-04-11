@@ -3,7 +3,10 @@
 Node.js streams for reading/writing/transforming pixels using node-gdal.
 
 We forked https://github.com/mapbox/geo-pixel-stream because the project did not seem to be updated anymore.
-We also needed support for latest Node.js LTS (v12 at that time), but https://github.com/naturalatlas/node-gdal was not upgraded as well, so that we switched to https://github.com/contra/node-gdal-next.
+
+At some point we needed support for latest Node.js LTS (v12 at that time), but https://github.com/naturalatlas/node-gdal was not upgraded as well, so that we switched to https://github.com/yocontra/node-gdal-next on the [`next` branch](https://github.com/kalisio/geo-pixel-stream/tree/next).
+
+Later we needed support for latest Node.js LTS (v16 at that time), but https://github.com/yocontra/node-gdal-next was not upgraded as well, so that we switched to https://github.com/mmomtchev/node-gdal-async on the [`gdal-async` branch](https://github.com/kalisio/geo-pixel-stream/tree/gdal-async).
 
 ## PixelReader streams
 
